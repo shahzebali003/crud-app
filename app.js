@@ -2,7 +2,7 @@ const path = require("path");
 const express = require("express");
 const app = express();
 const userRouter = require("./useroutes");
-const bcrypt= require("bcryptjs")
+//const bcrypt= require("bcryptjs")
 // MIDDLE WARE
 app.use(express.json());
 
